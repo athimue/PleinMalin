@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Plein Malin</string>
+
+    <!-- Liste -->
+    <string name="station_list_subtitle">Autour de Paris centre (position simulée) · %1$d km</string>
+    <string name="sort_by_price">Prix</string>
+    <string name="sort_by_distance">Distance</string>
+    <string name="badge_cheapest">Le moins cher</string>
+    <string name="badge_highway">Autoroute</string>
+    <string name="badge_24h">24h/24</string>
+    <string name="empty_stations">Aucune station ne propose ce carburant dans un rayon de %1$d km.</string>
+
+    <!-- Mise à jour des prix -->
+    <string name="updated_minutes_ago">mis à jour il y a %1$d min</string>
+    <string name="updated_hours_ago">mis à jour il y a %1$d h</string>
+    <string name="updated_days_ago">mis à jour il y a %1$d j</string>
+
+    <!-- Détail -->
+    <string name="back">Retour</string>
+    <string name="detail_prices_title">Prix au litre</string>
+    <string name="detail_services_title">Services</string>
+    <string name="detail_no_services">Aucun service renseigné</string>
+    <string name="detail_directions">Itinéraire</string>
+
+    <!-- Erreurs -->
+    <string name="retry">Réessayer</string>
+    <string name="error_no_internet">Pas de connexion internet.</string>
+    <string name="error_timeout">Le serveur met trop de temps à répondre.</string>
+    <string name="error_server">Le service des prix est indisponible pour le moment.</string>
+    <string name="error_not_found">Station introuvable.</string>
+    <string name="error_serialization">Réponse inattendue du serveur.</string>
+    <string name="error_unknown">Une erreur inattendue est survenue.</string>
+</resources>
