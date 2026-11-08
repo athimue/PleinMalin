@@ -1,4 +1,4 @@
-rootProject.name = "ComposeMultiPlatform"
+rootProject.name = "PleinMalin"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
@@ -28,4 +28,7 @@ dependencyResolutionManagement {
     }
 }
 
+// AGP 9 : l'application Android vit dans son propre module,
+// le code partagé est une bibliothèque KMP (com.android.kotlin.multiplatform.library).
+include(":androidApp")
 include(":composeApp")
